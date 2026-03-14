@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+.wrapperContacts {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperContacts-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.wrapperContacts-form a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation {
+
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.wrapperContacts-h1{
+    font-family: "Mozilla Text", sans-serif;;
+    font-weight: 600;
+}
+
+.wrapperContacts-form p{
+    font-family: "Mozilla Text", sans-serif;;
+    font-weight: 200;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+.sectionMeniu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(/photos/background.png);
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+
+}
+.wrapper-h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+     font-family: "Mozilla Text", sans-serif;
+     font-weight: 600;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
+
+.wrapperMeniu{
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+}
+
+.wrapperMeniu-card{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+@media (min-width: 768px) {
+
+    .sectionMeniu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(/photos/background.png);
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+
+}
+
+    .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
+.wrapperMeniu{
+    display: flex;
+    flex-direction: column;
+    width: 300%;
+}
+}

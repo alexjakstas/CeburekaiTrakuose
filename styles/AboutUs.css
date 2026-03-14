@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+.sectionAboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(/photos/background.png);
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.sectionAboutUs__h1{
+    margin: 1rem;
+
+}
+
+.sectionAboutUs__p{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-family:  "Mozilla Text", sans-serif;;
+    font-weight: 200;
+}
