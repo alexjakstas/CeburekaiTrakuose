@@ -6,10 +6,11 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-image: url(/photos/background.png);
-    object-fit: contain;
+    background-image: url(../photos/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgba(255, 255, 255, 0.4);
-  background-blend-mode: lighten;
+    background-blend-mode: lighten;
 }
 
 .sectionAboutUs__h1{
