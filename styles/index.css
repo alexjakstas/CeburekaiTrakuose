@@ -301,6 +301,9 @@ li {
   width: 100%;        
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  box-sizing: border-box; 
+  justify-content: flex-start;
+  scrollbar-width: none;
 }
 .page-header-title{
   color: var(--color-secondary-active);
@@ -334,7 +337,7 @@ li {
   
   width: 305px;       
   height: 480px; 
-  scroll-snap-align: center; 
+  scroll-snap-align: start; 
   border: var(--color-primary-pink) 2px solid;
   border-radius: 15px;
   box-shadow: 5px 5px 3px var(--color-secondary-title-text);
@@ -346,10 +349,10 @@ li {
 
 .page-header-video {
   width: 100% !important; 
-  height: auto;
-  max-height: 200px;
+  height: 300px;
   object-fit: cover; 
-  padding: 10px;
+  object-position: center;
+  padding: 0;
   box-sizing: border-box;
   margin-top: auto; 
 
@@ -367,4 +370,11 @@ li {
 font-weight: 600;
     padding-bottom: 1rem;
     font-family:  "Mozilla Text", sans-serif;
+}
+
+@media (min-width: 1440px) {
+    .news {
+        justify-content: center; 
+        overflow-x: hidden;      
+    }
 }
